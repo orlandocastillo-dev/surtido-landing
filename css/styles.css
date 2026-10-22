@@ -1,9 +1,6 @@
-/* =========================================================================
-   Surtido: hoja de estilos
-   Estructura: tokens > base > componentes > secciones > responsive
-   ========================================================================= */
+/* Surtido: hoja de estilos Estructura: tokens > base > componentes > secciones > responsive */
 
-/* ---------- Tokens ---------- */
+/* Tokens */
 :root {
   --bg: #ffffff;
   --bg-alt: #eef3f0;
@@ -60,7 +57,7 @@
   color-scheme: dark;
 }
 
-/* ---------- Base ---------- */
+/* Base */
 *,
 *::before,
 *::after {
@@ -139,7 +136,7 @@ svg {
   margin-inline: auto;
 }
 
-/* ---------- Botones ---------- */
+/* Botones */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -202,7 +199,7 @@ svg {
   color: #15201b;
 }
 
-/* ---------- Navegación ---------- */
+/* Navegación */
 .nav {
   position: sticky;
   top: 0;
@@ -355,7 +352,7 @@ svg {
   transform: rotate(-45deg);
 }
 
-/* ---------- Hero ---------- */
+/* Hero */
 .hero {
   padding: clamp(2.5rem, 7vw, 5.5rem) 0 clamp(3rem, 7vw, 6rem);
   overflow: hidden;
@@ -509,7 +506,7 @@ svg {
   animation-delay: 2.6s;
 }
 
-/* ---------- Franja ---------- */
+/* Franja */
 .strip {
   background: var(--marigold);
   color: #15201b;
@@ -541,7 +538,7 @@ svg {
     #15201b;
 }
 
-/* ---------- Secciones ---------- */
+/* Secciones */
 .section {
   padding: clamp(4rem, 9vw, 7rem) 0;
 }
@@ -596,7 +593,7 @@ svg {
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5 9-10'/%3E%3C/svg%3E") center / contain no-repeat;
 }
 
-/* ---------- Pestañas de producto ---------- */
+/* Pestañas de producto */
 .tabs__list {
   display: inline-flex;
   gap: 0.25rem;
@@ -824,7 +821,7 @@ svg {
   font: 700 1.4rem/1 var(--font-display);
 }
 
-/* ---------- Pasos ---------- */
+/* Pasos */
 .steps {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -858,7 +855,7 @@ svg {
   color: var(--muted);
 }
 
-/* ---------- Precios ---------- */
+/* Precios */
 .billing {
   display: inline-flex;
   gap: 0.25rem;
@@ -1001,7 +998,7 @@ svg {
   font-size: 0.9rem;
 }
 
-/* ---------- Preguntas ---------- */
+/* Preguntas */
 .faq {
   display: grid;
   grid-template-columns: 0.8fr 1.2fr;
@@ -1057,7 +1054,7 @@ svg {
   color: var(--muted);
 }
 
-/* ---------- CTA y pie ---------- */
+/* CTA y pie */
 .cta {
   background: var(--green);
   color: #fff;
@@ -1126,7 +1123,7 @@ svg {
   font-size: 0.85rem;
 }
 
-/* ---------- Responsive ---------- */
+/* Responsive */
 @media (max-width: 960px) {
   .hero__grid,
   .feature,
