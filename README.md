@@ -1,21 +1,19 @@
-# Página de Surtido
+# Página de Surti2
 
-La página de presentación de Surtido, una app de ventas, inventario y fiado para tiendas de barrio. La hice sin frameworks y sin nada que instalar: HTML, CSS y JavaScript.
+La página de presentación de Surti2, una app de ventas, inventario y fiado para tiendas de barrio. La hice sin frameworks y sin nada que instalar: HTML, CSS y JavaScript.
 
 ![Portada](docs/captura-hero.png)
 
 ## Lo que tiene
 
-- Una venta animada en el teléfono de la portada: los productos aparecen uno a uno y el total sube hasta $40.600. Es la única animación automática de la página.
-- Funciones en pestañas que se manejan también con el teclado, precios con selector mensual o anual y preguntas frecuentes.
-- Modo oscuro que sigue al sistema y se puede cambiar con un botón.
-- Se adapta al celular y respeta cuando alguien pide reducir el movimiento.
+- En la portada, una venta como se ve en la app: las líneas entran una por una al cargar y luego queda quieta. Se apaga si el sistema pide reducir el movimiento.
+- Un día en la tienda hora por hora, desde que se abre la caja hasta que se cierra.
+- La lista del fiado con quién debe, cuánto y quién lleva días sin abonar, y preguntas frecuentes que se abren también con el teclado.
+- Se adapta al celular.
 
-| Modo oscuro | Celular |
-| --- | --- |
-| ![Modo oscuro](docs/captura-oscuro.png) | <img src="docs/captura-movil.png" alt="Vista en el celular" width="280"> |
+<img src="docs/captura-movil.png" alt="Vista en el celular" width="280">
 
-El verde es por la plata y la confianza, y el amarillo lo usé en pocos lugares para que resalte: los beneficios, el plan recomendado y el aviso de fiado vencido. Los textos hablan como el tendero: fiado, cuadre de caja, Nequi.
+Usa la misma letra (IBM Plex Sans) y los mismos colores de la app: blanco, gris claro y un solo azul para lo que se puede tocar. Los textos hablan como el tendero: fiado, cuadre de caja, Nequi.
 
 ## Verla
 
@@ -25,6 +23,8 @@ Abre `index.html` en el navegador, o sirve la carpeta:
 npx serve .
 ```
 
-Los botones "Entrar" y "Crear mi tienda" abren la app real en `app/index.html`. Es la versión portátil de [surtido-app](https://github.com/orlandocastillo-dev/surtido-app), que se regenera allá con `npm run build:portable`.
+Los botones "Probar con la tienda de ejemplo" y "Crear mi tienda" abren la app real en `app/index.html`. Es la versión portátil de [surtido-app](https://github.com/orlandocastillo-dev/surtido-app), que se regenera allá con `npm run build:portable`.
 
-Surtido es una marca inventada; los precios y datos son de ejemplo.
+En vivo: https://surti2.vercel.app
+
+Surti2 es una marca inventada para un proyecto de portafolio; los datos son de ejemplo.
