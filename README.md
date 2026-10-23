@@ -6,7 +6,7 @@ La página de presentación de Surti2, una app de ventas, inventario y fiado par
 
 ## Lo que tiene
 
-- En la portada, una venta como se ve en la app: las líneas entran una por una al cargar y luego queda quieta. Se apaga si el sistema pide reducir el movimiento.
+- En la portada, una venta completa como se hace en la app: entran los productos, el total sube, se elige Nequi y se cobra. Corre una vez al abrir, se puede repetir con un botón y no se mueve si el sistema pide reducir el movimiento.
 - Un día en la tienda hora por hora, desde que se abre la caja hasta que se cierra.
 - La lista del fiado con quién debe, cuánto y quién lleva días sin abonar, y preguntas frecuentes que se abren también con el teclado.
 - Se adapta al celular.
